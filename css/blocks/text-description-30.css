@@ -1,0 +1,13 @@
+/* text-description-30 */
+
+.text-description-30 {
+	line-height: 130%;
+	color: var(--c-text-gray-light-main);
+	font-size: 30px;
+}
+
+@media (max-width: 1020px) {
+	.text-description-30 {
+		font-size: 24px;
+	}
+}

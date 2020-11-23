@@ -1,0 +1,32 @@
+/* Link arrow */
+
+.link-arrow {
+	font-size: 15px;
+	color: var(--c-footer-dark-gray);
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: flex-start;
+	margin-left: 5px;
+	position: relative;
+}
+
+a.link-arrow:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.link-arrow:hover .link-arrow__arrow {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.link-arrow__arrow {
+	opacity: 0;
+	margin-left: 5px;
+	transition: .2s;
+	transform: translateX(-5px);
+}

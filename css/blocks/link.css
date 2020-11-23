@@ -1,0 +1,5 @@
+/* Line */
+
+.line {
+	border: 1px solid var(--c-line-gray);
+}
