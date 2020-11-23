@@ -1,0 +1,28 @@
+/* Helper */
+
+body:before {
+    content: 'CLEAR';
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    background-color: aqua;
+}
+
+@media (max-width: 1360px) {
+    body:before {
+        content: 'T';
+    }
+}
+
+@media (max-width: 1020px) {
+    body:before {
+        content: 'MV';
+    }
+}
+
+@media (max-width: 650px) {
+    body:before {
+        content: 'M';
+    }
+}

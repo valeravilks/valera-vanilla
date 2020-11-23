@@ -1,0 +1,8 @@
+/* Styles */
+
+@import "setting/normalize.css";
+@import "setting/colors.css";
+@import "setting/helper.css";
+@import "setting/fonts.css";
+
+@import "blocks/page.css";
