@@ -1,0 +1,18 @@
+/* h6 */
+
+.h6 {
+    color: var(--c-text-black);
+    font-size: 40px;
+}
+
+@media (max-width: 1020px) {
+    .h6 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 650px) {
+    .h6 {
+        font-size: 20px;
+    }
+}

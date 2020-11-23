@@ -1,8 +1,14 @@
 /* Styles */
 
+/* Settings */
 @import "setting/normalize.css";
 @import "setting/colors.css";
 @import "setting/helper.css";
 @import "setting/fonts.css";
 
+/* Blocks */
 @import "blocks/page.css";
+@import "blocks/container.css";
+@import 'blocks/h1.css';
+
+/* Page */

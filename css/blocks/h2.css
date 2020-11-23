@@ -1,0 +1,14 @@
+/* H2 */
+
+.h2 {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--c-head-blue);
+    font-size: 16px;
+}
+
+@media (max-width: 1020px) {
+    .h2 {
+        font-size: 10px;
+    }
+}
