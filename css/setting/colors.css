@@ -12,7 +12,7 @@
 
 /* Текст: Светло-серый основной */
 :root {
-    --c-text-gray-light-main: #E0E0E0;
+    --c-text-gray-light-main: #e0e0e0;
 
     /* Текст: Чёрный */
     --c-text-black: #111111;

@@ -1,0 +1,33 @@
+/* header */
+
+.header {
+	padding: 45px 0;
+}
+
+.header__logo{
+	grid-column: span 1;
+}
+
+.header__block {
+	grid-column: span 3 / 6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 1360px) {
+	.header {
+	}
+}
+
+@media (max-width: 1020px) {
+	.header__block {
+		grid-column: span 1;
+		flex-direction: row-reverse;
+	}
+}
+
+@media (max-width: 650px) {
+	.header {
+	}
+}

@@ -1,0 +1,30 @@
+/* logo */
+
+.logo {
+	position: relative;
+	display: inline-flex;
+}
+
+.logo__svg {
+	height: 27px;
+	width: 31px;
+}
+
+.logo__svg use path{
+	fill: #0F0F0F;
+}
+
+@media (max-width: 1360px) {
+	.logo {
+	}
+}
+
+@media (max-width: 1020px) {
+	.logo {
+	}
+}
+
+@media (max-width: 650px) {
+	.logo {
+	}
+}

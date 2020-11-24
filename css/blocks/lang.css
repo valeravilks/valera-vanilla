@@ -1,0 +1,15 @@
+/* lang */
+
+.lang {
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+@media (max-width: 1020px) {
+	.lang {
+		display: none;
+	}
+}

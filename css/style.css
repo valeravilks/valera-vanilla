@@ -6,9 +6,32 @@
 @import "setting/helper.css";
 @import "setting/fonts.css";
 
+/* Fonts Style */
+@import 'blocks/fonts/h1.css';
+@import 'blocks/fonts/h2.css';
+@import 'blocks/fonts/h3.css';
+@import 'blocks/fonts/h4.css';
+@import 'blocks/fonts/h5.css';
+@import 'blocks/fonts/h6.css';
+@import 'blocks/fonts/text-16.css';
+@import 'blocks/fonts/text-20.css';
+@import 'blocks/fonts/text-description-30.css';
+
+/* Layout */
+
+@import 'blocks/layout/container.css';
+@import "blocks/layout/grid.css";
+
 /* Blocks */
 @import "blocks/page.css";
-@import "blocks/container.css";
-@import 'blocks/h1.css';
+@import "blocks/link-arrow.css";
+@import 'blocks/link.css';
+@import 'blocks/logo.css';
+@import "blocks/layout/grid.css";
+@import 'blocks/header.css';
+@import "blocks/menu.css";
+@import "blocks/lang.css";
+@import "blocks/hamburger.css";
+@import "blocks/mobile-menu.css";
 
 /* Page */

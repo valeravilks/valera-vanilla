@@ -1,0 +1,31 @@
+/* grid */
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(5, 220px);
+	column-gap: 50px;
+}
+
+@media (max-width: 1360px) {
+	.grid {
+		column-gap: 30px;
+		grid-template-columns: repeat(5, 168px);
+	}
+}
+
+@media (max-width: 1020px) {
+	.grid {
+		column-gap: 0;
+		grid-template-columns: 325px 274px;
+	}
+}
+
+@media (max-width: 650px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-header {
+		grid-template-columns: 1fr 1fr;
+	}
+}

@@ -1,0 +1,14 @@
+<svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            #i1 {
+            transition: 0.3s;
+            }
+            svg:hover #i1{
+            fill: #0057FF;
+            }
+        </style>
+    </defs>
+    <path id="i1" d="M2.29666 0H0.144531L18.8473 22.0042H20.9995L2.29666 0Z" fill="#111111"/>
+    <path d="M20.855 0H18.7028L0 22.0042H2.15214L20.855 0Z" fill="#111111"/>
+</svg>

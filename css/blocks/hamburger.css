@@ -1,0 +1,26 @@
+/* hamburger */
+
+.hamburger {
+	display: none;
+}
+
+.hamburger__svg {
+	width: 24px;
+	height: 21px;
+}
+
+@media (max-width: 1360px) {
+	.hamburger {
+	}
+}
+
+@media (max-width: 1020px) {
+	.hamburger {
+		display: block;
+	}
+}
+
+@media (max-width: 650px) {
+	.hamburger {
+	}
+}

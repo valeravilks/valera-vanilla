@@ -3,4 +3,9 @@
 .page__body {
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
+	background-color: var(--c-bg-dark);
+}
+
+.page__body-light {
+	background-color: var(--c-bg-light);
 }
